@@ -76,4 +76,23 @@ img{
     text-decoration: underline;
 }
 
+.bottom-header{
+    background-image: url(img/jumbo.png);
+    background-size: cover; /*così da riempire tutto lo spazio*/
+    text-align: center;
+    color:white;
+    position: relative;
+}
+
+.debug .bottom-header{
+    height:500px;   /*per evitare che collassi*/
+}
+
+.content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
