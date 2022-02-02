@@ -73,10 +73,6 @@ header{
     text-decoration: none;
 }
 
-.top-header .btn{
-
-}
-
 .top-header .btn:hover{
     color:blue;
     text-decoration: underline;
@@ -106,7 +102,7 @@ header{
 }
 
 .content p{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .btn-destra{
@@ -114,6 +110,12 @@ header{
     color:white;
     margin-left: 20px;
 }
+
+.debug .spazio-per-parlare{
+    height: 500px;
+}
+
+
 
 
 
