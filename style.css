@@ -36,16 +36,17 @@ header{
 
 .top-header{
     height: 80px;
-    line-height: 80px;
+    padding-top: 30px;
 }
 
-img{
-    vertical-align: middle;
+.top-header img{
+   display:inline-block;
+   vertical-align: middle;
 }
 
 .top-header nav{
-    vertical-align:middle;
     display: inline-block;
+    
 }
 
 .top-header li {
@@ -63,15 +64,20 @@ img{
     text-decoration: underline; /*solo quando passo sopra i link compare la sottolineatura*/
 }
 
-.btn{
-    width: 50px;
+.btn{   /*senza creare un button e per ogni button andare a modificare il css creo questa classe di utilità*/
+    width: 70px;
+    padding:10px;
     background-color: white;
-    border-radius: 20%;
+    border-radius: 40%;
     color:black;
     text-decoration: none;
 }
 
-.btn:hover{
+.top-header .btn{
+
+}
+
+.top-header .btn:hover{
     color:blue;
     text-decoration: underline;
 }
@@ -94,5 +100,21 @@ img{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.content h1{
+    margin-bottom:40px;
+}
+
+.content p{
+    margin-bottom: 20px;
+}
+
+.btn-destra{
+    background-color: black;
+    color:white;
+    margin-left: 20px;
+}
+
+
 
 
