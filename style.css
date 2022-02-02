@@ -111,12 +111,46 @@ header{
     margin-left: 20px;
 }
 
-.debug .spazio-per-parlare{
-    height: 500px;
+.spazio-per-parlare{
+    padding-top:100px;
 }
 
-.spazio-per-parlare img{
-    width: 150px;
+.trovarsi-facile{
+    padding-top: 100px;
+}
+
+.spazio-per-parlare .testo{
+    margin-top:50px;
+    margin-left: 200px;
+}
+
+.trovarsi-facile .testo{
+    margin-top: 70px;
+    margin-right:200px;
+}
+
+.fandom{
+    padding-top: 100px;
+}
+
+.fandom .testo{
+    margin-top: 60px;
+    margin-left:200px;
+}
+
+.tecnologia{
+    position: relative;
+    margin-top:400px ;
+    padding:100px;
+}
+
+.tecnologia .btn{
+    background-color: rgb(9, 141, 194);
+    color:white;
+}
+
+.tecnologia .h1{
+    margin-left: 300px;
 }
 
 
