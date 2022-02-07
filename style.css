@@ -16,7 +16,19 @@
     float: left;
 }
 
-/*classi di utilità*/
+.float-right{
+    float: right;
+}
+
+.btn{   /*senza creare un button e per ogni button andare a modificare il css creo questa classe di utilità*/
+    padding:1% 2%;
+    background-color: white;
+    border-radius: 40%;
+    color:black;
+    text-decoration: none;
+}
+
+/*/classi generiche*/
 body{
     font-family: sans-serif;
 }
@@ -25,7 +37,7 @@ body{
     max-width: 1200px;
     margin:0 auto;
 }
-
+/*header*/
 header{
     background-color: #3161e0;
 }
@@ -35,18 +47,12 @@ header{
 }
 
 .top-header{
-    height: 80px;
     padding-top: 30px;
 }
 
 .top-header img{
    display:inline-block;
    vertical-align: middle;
-}
-
-.top-header nav{
-    display: inline-block;
-    
 }
 
 .top-header li {
@@ -62,15 +68,6 @@ header{
 
 .top-header li a:hover{
     text-decoration: underline; /*solo quando passo sopra i link compare la sottolineatura*/
-}
-
-.btn{   /*senza creare un button e per ogni button andare a modificare il css creo questa classe di utilità*/
-    width: 70px;
-    padding:10px;
-    background-color: white;
-    border-radius: 40%;
-    color:black;
-    text-decoration: none;
 }
 
 .top-header .btn:hover{
@@ -93,66 +90,80 @@ header{
 .content{
     position: absolute;
     top:50%;
-    left: 50%;
+    left:50%;
     transform: translate(-50%,-50%);
 }
 
-.content h1{
-    margin-bottom:40px;
-}
-
-.content p{
-    margin-bottom: 40px;
+.bottom-header h1, .bottom-header p{
+    margin-bottom: 5%;
 }
 
 .btn-destra{
     background-color: black;
     color:white;
-    margin-left: 20px;
+    margin-left: 15%;
+    border-radius: 50%;
 }
+/*/header*/
 
+/*jumbotron*/
 .spazio-per-parlare{
-    padding-top:100px;
-}
-
-.trovarsi-facile{
-    padding-top: 100px;
+    margin-top: 10%;
+    padding-top:40% 20%;
 }
 
 .spazio-per-parlare .testo{
-    margin-top:50px;
-    margin-left: 200px;
+    width:25%;
+    margin-top:4%;
+}
+
+.spazio-per-parlare .testo p{
+    margin-top:5%;
+}
+/*/jumbotron*/
+/*trovarsi-facile*/
+.trovarsi-facile{
+    margin-top:10%;
 }
 
 .trovarsi-facile .testo{
-    margin-top: 70px;
-    margin-right:200px;
+    width: 25%;
 }
 
+.trovarsi-facile h1{
+    margin-bottom: 5%;
+}
+/*/trovarsi-facile*/
+/*fandom*/
 .fandom{
-    padding-top: 100px;
+    margin-top:10%;
 }
 
 .fandom .testo{
-    margin-top: 60px;
-    margin-left:200px;
+    width:25%;
 }
-
+/*/fandom*/
+/*tecnologia*/
 .tecnologia{
     position: relative;
     margin-top:400px ;
     padding:100px;
 }
 
+.tecnologia .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
 .tecnologia .btn{
     background-color: rgb(9, 141, 194);
     color:white;
+    margin-top:5%;
+    margin-left: 50%;
 }
-
-.tecnologia .h1{
-    margin-left: 300px;
-}
-
+/*/tecnologia*/
 
 
 
