@@ -164,6 +164,42 @@ header{
     margin-left: 50%;
 }
 /*/tecnologia*/
+/*footer*/
+footer{
+    background-color: #23272a;
+    margin-top: 30%;
+    padding-top:7%;
+}
+
+.debug footer{
+    height:500px;
+}
+
+footer .float-left{
+    width:20%;
+}
+
+footer h2{
+    margin-bottom:10%;
+}
+
+#italiano{
+    margin-bottom:5%;
+}
+
+.text-white{
+    color:white;
+}
+
+footer ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer h2, footer h3{
+    color:#7fb3e4;
+}
+/*/footer*/
 
 
 
