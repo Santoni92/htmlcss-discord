@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.clearfix{
+.clearfix::after{
     content:"";
     display: table;
     clear: both;
